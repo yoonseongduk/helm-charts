@@ -23,7 +23,7 @@ kubectl -n kcm-monitoring get all
 
 cd ./lucida-kcmagent/
 helm install kcm-agent deploy/kcm-agent -n kcm-monitoring --create-namespace -f values.yaml
-helm install kcm-agent deploy/kcm-agent -n kcm-monitoring --create-namespace -f values.yaml
+helm install kcm-agent      ./kcm-agent -n kcm-monitoring --create-namespace -f values.yaml
 helm -n kcm-monitoring list
 
 
