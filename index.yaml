@@ -3,10 +3,10 @@ entries:
   kcm-agent:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-02-28T13:13:21.930847386+09:00"
-    digest: 7ec4eb4a3d23f929db1638013a0d5406ceb1d7fd211dcb252d684818857e7a27
+    created: "2025-03-19T11:09:49.409922335+09:00"
+    digest: b5de09e8419fe04ca8efe58074e474981e216dc157265a7c0046cabdc2a52fa9
     name: kcm-agent
     urls:
     - https://yoonseongduk.github.io/helm-charts/kcm-agent-0.0.1.tgz
     version: 0.0.1
-generated: "2025-02-28T13:13:21.928774978+09:00"
+generated: "2025-03-19T11:09:49.405227337+09:00"

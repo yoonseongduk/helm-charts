@@ -1,3 +1,15 @@
+# helm-chart - update (in linux prompt)
+# -------------------------------------
+# helm package deploy/kcm-agent/
+# --> kcm-agent-0.0.1.tgz 
+# helm repo index --url https://yoonseongduk.github.io/helm-charts/ . 
+# --> index.yaml 
+#
+# git push (update)
+# ---------------------
+# git status
+# git add .
+
 # helm-charts 
 # ----------------
 # kcm-workdir="/root/kcmagent"
