@@ -28,5 +28,3 @@
 # helm repo list
 # helm dependency update
 # helm template -f ../../values.yaml .   
-```
-
