@@ -17,6 +17,17 @@
 # git push origin main
 ```
 
+# git pull and push 
+
+```
+git pull origin main
+
+git config pull.rebase true 
+git pull origin main
+
+
+```
+
 # helm-charts - install
 
 ```
