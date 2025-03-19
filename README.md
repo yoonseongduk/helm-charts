@@ -1,5 +1,4 @@
 # helm-chart - update (in linux prompt)
-# -------------------------------------
 
 ```
 # helm package deploy/kcm-agent/
@@ -10,7 +9,6 @@
 ```
 
 # git push (update)
-# ---------------------
 
 ```
 # git status
@@ -20,7 +18,6 @@
 ```
 
 # helm-charts - install
-# ----------------
 
 ```
 # kcm-workdir="/root/kcmagent"
@@ -30,6 +27,6 @@
 # helm repo update
 # helm repo list
 # helm dependency update
+# helm template -f ../../values.yaml .   
 ```
 
-# helm template -f ../../values.yaml .   
