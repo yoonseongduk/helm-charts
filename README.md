@@ -25,7 +25,11 @@ git pull origin main
 git config pull.rebase true 
 git pull origin main
 
+git add .
+git commit -m 'helm-chart update'
+git stash
 
+git pull origin main
 ```
 
 # helm-charts - install
